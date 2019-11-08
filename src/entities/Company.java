@@ -1,7 +1,8 @@
 package entities;
 
 public class Company extends Person {
-
+		
+		//Definição do atributo específico dessa clase
 		private Integer employeeNumber;
 	
 		public Company()
@@ -21,7 +22,8 @@ public class Company extends Person {
 		public void setEmployeeNumber(Integer employeeNumber) {
 			this.employeeNumber = employeeNumber;
 		}
-
+		
+		//Implementação do método abstrato da super classe
 		@Override
 		public double tax() {
 			double tax = getAnnualIncome();
